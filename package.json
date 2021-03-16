@@ -1,0 +1,18 @@
+{
+  "name": "sankey",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel serve index.html"
+  },
+  "dependencies": {
+    "@nivo/core": "^0.67.0",
+    "@nivo/sankey": "^0.67.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "parcel": "2.0.0-beta.2"
+  }
+}
